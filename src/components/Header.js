@@ -16,11 +16,11 @@ const Header = () => {
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav className="me-auto my-2 my-lg-0" style={{ maxHeight: "100px" }} navbarScroll>
-              <Link className={path.pathname === "/E-commerce" ? "nav-link active ms-3" : "ms-3 nav-link"} to="/">
+              <Link className={path.pathname === "/E-commerce" ? "nav-link active ms-3" : "ms-3 nav-link"} to="/E-commerce">
                 Home
               </Link>
 
-              <Link className={path.pathname === "/E-commerce/products" ? "nav-link active ms-3" : "ms-3 nav-link"} to="/products">
+              <Link className={path.pathname === "/E-commerce/products" ? "nav-link active ms-3" : "ms-3 nav-link"} to="/E-commerce/products">
                 Product
               </Link>
             </Nav>
@@ -28,7 +28,7 @@ const Header = () => {
               {/* <Form.Control type="search" placeholder="Search" className="me-2" aria-label="Search" />
               <Button variant="outline-success">Search</Button> */}
               <Nav>
-                <Link className={path.pathname === "/E-commerce/cart" ? "nav-link active ms-3" : "ms-3 nav-link"} to="/cart">
+                <Link className={path.pathname === "/E-commerce/cart" ? "nav-link active ms-3" : "ms-3 nav-link"} to="/E-commerce/cart">
                   Cart({state?.length})
                 </Link>
               </Nav>
