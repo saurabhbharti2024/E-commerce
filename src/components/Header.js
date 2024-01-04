@@ -16,7 +16,7 @@ const Header = () => {
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav className="me-auto my-2 my-lg-0" style={{ maxHeight: "100px" }} navbarScroll>
-              <Link className={path.pathname === "/E-commerce" ? "nav-link active ms-3" : "ms-3 nav-link"} to="/E-commerce">
+              <Link className={path.pathname === "/E-commerce/" ? "nav-link active ms-3" : "ms-3 nav-link"} to="/E-commerce/">
                 Home
               </Link>
 
