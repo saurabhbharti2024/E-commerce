@@ -70,7 +70,7 @@ const Product = () => {
           <Button variant="outline-dark" className="px-4 py-2" onClick={() => handleCart(product)}>
             {cartBtn}
           </Button>
-          <Link to="/cart">
+          <Link to="/E-commerce/cart">
             <Button variant="dark" className="ms-2 px-3 py-2">
               Go to Cart
             </Button>

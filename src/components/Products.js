@@ -86,7 +86,7 @@ const Products = () => {
                 <Card.Body>
                   <Card.Title>{Item.title.substring(0, 12)}</Card.Title>
                   <p>${Item.price}</p>
-                  <Link to={`/products/${Item.id}`}>
+                  <Link to={`/E-commerce/products/${Item.id}`}>
                     <Button variant="outline-dark">Buy Now</Button>
                   </Link>
                 </Card.Body>
