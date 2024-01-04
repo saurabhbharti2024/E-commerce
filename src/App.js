@@ -34,10 +34,10 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/cart" element={<Cart />} />
-        <Route path="/products" element={<Products />} />
-        <Route path="/products/:id" element={<Product />} />
+        <Route path="/E-commerce" element={<Home />} />
+        <Route path="/E-commerce/cart" element={<Cart />} />
+        <Route path="/E-commerce/products" element={<Products />} />
+        <Route path="/E-commerce/products/:id" element={<Product />} />
       </Routes>
     </div>
   );
